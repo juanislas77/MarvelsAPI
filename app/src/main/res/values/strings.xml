@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MarvelsAPI</string>
+    <string name="description">The services does not provide a current description for this character, you can find more details in https://www.marvel.com/</string>
+    <string name="default_image">Default Image</string>
+    <string name="image_character">image character</string>
+    <string name="loading_text">Data information is loading, please wait a moment…</string>
+    <string name="comic_description">The services does not provide a current description for this comic, you can find more details in https://www.marvel.com/</string>
+    <string name="no_series_provided">No series provided</string>
+    <string name="connection_not_available">Connection not available</string>
+</resources>
