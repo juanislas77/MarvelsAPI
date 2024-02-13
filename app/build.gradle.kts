@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.islas.marvelsapi"
+    namespace = "com.islas.marvels-api"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.islas.marvelsapi"
+        applicationId = "com.islas.marvels-api"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -52,14 +52,10 @@ android {
 
 dependencies {
 
-    //implementation("androidx.core:core-ktx:1.9.0")
-    //implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
-    //implementation("androidx.activity:activity-compose:1.8.0")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
-    //implementation("androidx.compose.material3:material3")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -79,8 +75,8 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.6")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
-    implementation("androidx.compose.material:material-icons-core:1.5.4")
-    implementation("androidx.compose.material:material-icons-extended:1.5.4")
+    implementation("androidx.compose.material:material-icons-core:1.6.0")
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
 
     implementation("io.insert-koin:koin-core:3.5.0")
     implementation("io.insert-koin:koin-androidx-workmanager:3.5.0")
@@ -89,8 +85,6 @@ dependencies {
 
     //Coil
     implementation("io.coil-kt:coil-compose:2.4.0")
-    //Permissions
-    //implementation("com.google.accompanist:accompanist:0.28.0")
     //Json Parser
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("org.jetbrains.kotlin:kotlin-serialization:1.9.20")

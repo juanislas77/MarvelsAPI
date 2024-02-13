@@ -26,7 +26,7 @@ import androidx.navigation.compose.rememberNavController
 import com.compose.kotlinProject.presentation.views.NoConnectionView
 import com.islas.marvelsapi.core.network.NetworkConnectivityObserver
 import com.islas.marvelsapi.core.util.ConnectivityObserver
-import com.islas.marvelsapi.navigation.navhost.RootNavigationGraph
+import com.islas.marvelsapi.navigation.graphs.HomeNavGraph
 import com.islas.marvelsapi.presentation.stateholders.MasterViewModel
 import com.islas.marvelsapi.presentation.ui.theme.MarvelsAPITheme
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -70,7 +70,7 @@ class MainActivity : ComponentActivity() {
                                     )
                                 },
                             ) { innerPadding ->
-                                RootNavigationGraph(
+                                HomeNavGraph(
                                     navController = rememberNavController(),
                                     masterViewModel = masterViewModel,
                                     innerPadding = innerPadding

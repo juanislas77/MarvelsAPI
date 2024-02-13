@@ -7,4 +7,9 @@
     <string name="comic_description">The services does not provide a current description for this comic, you can find more details in https://www.marvel.com/</string>
     <string name="no_series_provided">No series provided</string>
     <string name="connection_not_available">Connection not available</string>
+    <string name="dashboard">Marvel\'s API</string>
+    <string name="comics">Comics</string>
+    <string name="characters">Characters</string>
+    <string name="series">Series</string>
+    <string name="stories">Stories</string>
 </resources>

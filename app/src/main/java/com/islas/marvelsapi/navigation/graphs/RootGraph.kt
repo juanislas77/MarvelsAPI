@@ -12,3 +12,4 @@ object Graph{
     const val STORIESLIST = "root_list_Stories"
     const val STORYDETAIL = "story_detail_graph"
 }
+
