@@ -7,7 +7,7 @@ import androidx.compose.material.icons.outlined.History
 import androidx.compose.material.icons.outlined.People
 import androidx.compose.material.icons.outlined.Tv
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.islas.`marvels-api`.R
+import com.islas.marvelsapi.R
 import com.islas.marvelsapi.navigation.graphs.Graph
 
 sealed class TopBar(

@@ -8,7 +8,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
-import com.compose.kotlinProject.presentation.views.LoadingView
 import com.islas.marvelsapi.navigation.graphs.Graph
 import com.islas.marvelsapi.presentation.designsystem.ComicCard
 import com.islas.marvelsapi.presentation.stateholders.MasterViewModel

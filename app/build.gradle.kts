@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.islas.marvels-api"
+    namespace = "com.islas.marvelsapi"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.islas.marvels-api"
+        applicationId = "com.islas.marvelsapi"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

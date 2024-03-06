@@ -1,4 +1,4 @@
-package com.compose.kotlinProject.presentation.views
+package com.islas.marvelsapi.presentation.views
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
