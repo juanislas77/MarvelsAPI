@@ -42,29 +42,6 @@ class MainActivity : ComponentActivity() {
                     )
                     when(status){
                         ConnectivityObserver.Status.Available -> {
-//                            Scaffold(
-//                                topBar = {
-//                                    TopAppBar(title = {
-//                                        Text(
-//                                            modifier = Modifier.fillMaxWidth(),
-//                                            text = "Marvel's API",
-//                                            fontWeight = FontWeight.Black,
-//                                            fontSize = 50.sp,
-//                                            textAlign = TextAlign.Center
-//                                        )
-//                                    },
-//                                        modifier = Modifier
-//                                            .padding(vertical = 24.dp)
-//                                            .fillMaxWidth()
-//                                    )
-//                                },
-//                            ) { innerPadding ->
-//                                HomeNavGraph(
-//                                    navController = rememberNavController(),
-//                                    masterViewModel = masterViewModel,
-//                                    innerPadding = innerPadding
-//                                )
-//                            }
                             RootNavigationGraph(
                                 navController = rememberNavController(),
                                 masterViewModel

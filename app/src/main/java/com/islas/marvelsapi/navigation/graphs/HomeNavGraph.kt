@@ -5,17 +5,16 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.islas.marvelsapi.presentation.views.CharacterListView
-import com.islas.marvelsapi.presentation.views.ComicDetailView
-import com.islas.marvelsapi.presentation.views.ComicsListView
-import com.islas.marvelsapi.presentation.views.DashboardView
 import com.compose.kotlinProject.presentation.views.SeriesDetailView
 import com.compose.kotlinProject.presentation.views.SeriesListView
 import com.compose.kotlinProject.presentation.views.StoriesListView
 import com.compose.kotlinProject.presentation.views.StoryDetailView
-import com.islas.marvelsapi.navigation.graphs.Graph
 import com.islas.marvelsapi.presentation.stateholders.MasterViewModel
 import com.islas.marvelsapi.presentation.views.CharacterDetailView
+import com.islas.marvelsapi.presentation.views.CharacterListView
+import com.islas.marvelsapi.presentation.views.ComicDetailView
+import com.islas.marvelsapi.presentation.views.ComicsListView
+import com.islas.marvelsapi.presentation.views.DashboardView
 
 @Composable
 fun HomeNavGraph(
